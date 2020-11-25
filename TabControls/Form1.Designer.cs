@@ -30,46 +30,46 @@ namespace TabControls
         private void InitializeComponent()
         {
             this.partyTabs = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.DinnerParty = new System.Windows.Forms.TabPage();
+            this.BirthdayParty = new System.Windows.Forms.TabPage();
             this.partyTabs.SuspendLayout();
             this.SuspendLayout();
             // 
             // partyTabs
             // 
-            this.partyTabs.Controls.Add(this.tabPage1);
-            this.partyTabs.Controls.Add(this.tabPage2);
-            this.partyTabs.Location = new System.Drawing.Point(68, 54);
+            this.partyTabs.Controls.Add(this.DinnerParty);
+            this.partyTabs.Controls.Add(this.BirthdayParty);
+            this.partyTabs.Location = new System.Drawing.Point(12, 12);
             this.partyTabs.Name = "partyTabs";
             this.partyTabs.SelectedIndex = 0;
-            this.partyTabs.Size = new System.Drawing.Size(200, 100);
+            this.partyTabs.Size = new System.Drawing.Size(299, 189);
             this.partyTabs.TabIndex = 0;
             // 
-            // tabPage1
+            // DinnerParty
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(192, 71);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.DinnerParty.Location = new System.Drawing.Point(4, 25);
+            this.DinnerParty.Name = "DinnerParty";
+            this.DinnerParty.Padding = new System.Windows.Forms.Padding(3);
+            this.DinnerParty.Size = new System.Drawing.Size(192, 71);
+            this.DinnerParty.TabIndex = 0;
+            this.DinnerParty.Text = "DinnerParty";
+            this.DinnerParty.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // BirthdayParty
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(192, 71);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.BirthdayParty.Location = new System.Drawing.Point(4, 25);
+            this.BirthdayParty.Name = "BirthdayParty";
+            this.BirthdayParty.Padding = new System.Windows.Forms.Padding(3);
+            this.BirthdayParty.Size = new System.Drawing.Size(291, 160);
+            this.BirthdayParty.TabIndex = 1;
+            this.BirthdayParty.Text = "BirthdayParty";
+            this.BirthdayParty.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 264);
+            this.ClientSize = new System.Drawing.Size(406, 243);
             this.Controls.Add(this.partyTabs);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -79,8 +79,8 @@ namespace TabControls
         }
 
         #endregion
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage DinnerParty;
+        private System.Windows.Forms.TabPage BirthdayParty;
         private System.Windows.Forms.TabControl partyTabs;
     }
 }
